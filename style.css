@@ -1,0 +1,142 @@
+body {
+    font-family: "Righteous", cursive;
+    font-family: "Roboto", sans-serif;
+    background-color: #e5e5e5;
+  }
+  /* cabeçario */
+  .cabeçario {
+    background-color: #cf2b2b;
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  h1 {
+    font-family: Righteous;
+    font-size: 44px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .subtitulo {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 15px;
+  }
+  /* PRATOS */
+  .escolha {
+    margin-left: 15px;
+    padding-top: 110px;
+    font-family: Righteous;
+    font-size: 26px;
+  }
+  .linha {
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+  }
+  .imagem {
+    margin-right: 14px;
+    margin-left: 14px;
+    border-radius: 4px;
+    height: 87px;
+    width: 144px;
+  }
+  button {
+    border: none;
+  }
+  .item {
+    margin: 10px;
+    height: 216px;
+    width: 172px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .titulo-comida {
+    padding: 8px;
+    color: #333333;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  .descriçao {
+    color: #a6a6a6;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-left: 14px;
+  }
+  .valor {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: 14px;
+  }
+  .bebida {
+    margin-left: 15px;
+    padding-top: 20px;
+    font-family: Righteous;
+    font-size: 26px;
+  }
+  .item-b {
+    margin: 10px;
+    height: 202px;
+    width: 172px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .item-s {
+    margin: 10px;
+    margin-bottom: 100px;
+    height: 202px;
+    width: 172px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  /* rodapé */
+  .rodape {
+    background-color: #ffffff;
+    height: 92px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2px;
+  }
+  .finalizar {
+    height: 61px;
+    width: 364px;
+    border-color: #cbcbcb;
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-rodape {
+    width: 60%;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
