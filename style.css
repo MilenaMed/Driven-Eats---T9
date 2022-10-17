@@ -92,9 +92,6 @@ button {
   color: white;
   border-radius: 50%;
 }
-.desativado {
-  display: none;
-}
 .bebida {
   margin-left: 15px;
   padding-top: 20px;
@@ -152,7 +149,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2px;
 }
 .finalizar {
   height: 61px;
@@ -163,9 +159,18 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
 }
-.p-rodape {
-  width: 60%;
+.finalizado{
+  background-color: #32b72f;
+  height: 61px;
+  width: 364px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Roboto;
   font-size: 20px;
   color: #ffffff;
